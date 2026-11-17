@@ -19,5 +19,7 @@ The bootstrap script asks for the private repository `Salarsdg/salar-app`,
 the Git ref (default `main`), and a **separate**, short-lived,
 **read-only** token scoped to that private repository. Do not reuse the publisher PAT on the VPS.
 
+The installer defaults to admin.callmekarl.icu, panel.callmekarl.icu, and app.callmekarl.icu.
+
 The current installer deploys only one shop plus license server; multi-tenant SaaS,
 web-based restore/update, and live payments still require development and validation.
